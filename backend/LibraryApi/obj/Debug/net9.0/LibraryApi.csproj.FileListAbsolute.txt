@@ -34,3 +34,4 @@
 /Users/nimeshmadhusanka/Desktop/library_management_system/backend/LibraryApi/obj/Debug/net9.0/LibraryApi.pdb
 /Users/nimeshmadhusanka/Desktop/library_management_system/backend/LibraryApi/obj/Debug/net9.0/LibraryApi.genruntimeconfig.cache
 /Users/nimeshmadhusanka/Desktop/library_management_system/backend/LibraryApi/obj/Debug/net9.0/ref/LibraryApi.dll
+/Users/nimeshmadhusanka/Desktop/library_management_system/backend/LibraryApi/bin/Debug/net9.0/package-lock.json
