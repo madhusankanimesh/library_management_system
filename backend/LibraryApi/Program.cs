@@ -1,8 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using LibraryApi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add SQLite Database
+builder.Services.AddDbContext<LibraryContext>(options =>
+    options.UseSqlite("Data Source=library.db"));
 
 // Add CORS
 builder.Services.AddCors(options =>
